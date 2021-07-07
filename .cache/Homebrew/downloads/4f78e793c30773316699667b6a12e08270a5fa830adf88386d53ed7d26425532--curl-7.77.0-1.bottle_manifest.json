@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8230cece01185b3dec53b79c1ad42c022d0141a28f3074035b0f9441ed5321f2",
+      "size": 3631,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "7.77.0.x86_64_linux.1",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "fed3d3b7164cae5fcc4a2c805099b156532296453bfaa676548b3ef1433e3794",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.1.11-24-g9938621\",\"changed_files\":[\"bin/curl-config\",\"lib/pkgconfig/libcurl.pc\"],\"source_modified_time\":1622009942,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[{\"full_name\":\"brotli\",\"version\":\"1.0.9\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.2\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.1\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.2.11\",\"declared_directly\":true},{\"full_name\":\"libxml2\",\"version\":\"2.9.12\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.21\",\"declared_directly\":false},{\"full_name\":\"libunistring\",\"version\":\"0.9.10\",\"declared_directly\":false},{\"full_name\":\"libidn2\",\"version\":\"2.3.1\",\"declared_directly\":true},{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1k\",\"declared_directly\":true},{\"full_name\":\"libssh2\",\"version\":\"1.9.0\",\"declared_directly\":true},{\"full_name\":\"c-ares\",\"version\":\"1.17.1\",\"declared_directly\":false},{\"full_name\":\"jemalloc\",\"version\":\"5.2.1\",\"declared_directly\":false},{\"full_name\":\"libev\",\"version\":\"4.33\",\"declared_directly\":false},{\"full_name\":\"nghttp2\",\"version\":\"1.43.0\",\"declared_directly\":true},{\"full_name\":\"util-linux\",\"version\":\"2.37\",\"declared_directly\":false},{\"full_name\":\"openldap\",\"version\":\"2.5.5\",\"declared_directly\":true},{\"full_name\":\"rtmpdump\",\"version\":\"2.4+20151223\",\"declared_directly\":true},{\"full_name\":\"zstd\",\"version\":\"1.5.0\",\"declared_directly\":true},{\"full_name\":\"m4\",\"version\":\"1.4.18\",\"declared_directly\":false},{\"full_name\":\"bison\",\"version\":\"3.7.6\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.19.1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 16.04.7\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.23\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-06-09",
+    "org.opencontainers.image.description": "Get a file from an HTTP, HTTPS or FTP server",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/curl",
+    "org.opencontainers.image.license": "curl",
+    "org.opencontainers.image.ref.name": "7.77.0-1",
+    "org.opencontainers.image.revision": "b1ac4004d85c4501e7b85abd7d01af6519e1be9f",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/linuxbrew-core/blob/b1ac4004d85c4501e7b85abd7d01af6519e1be9f/Formula/curl.rb",
+    "org.opencontainers.image.title": "curl",
+    "org.opencontainers.image.url": "https://curl.se",
+    "org.opencontainers.image.vendor": "linuxbrew",
+    "org.opencontainers.image.version": "7.77.0"
+  }
+}

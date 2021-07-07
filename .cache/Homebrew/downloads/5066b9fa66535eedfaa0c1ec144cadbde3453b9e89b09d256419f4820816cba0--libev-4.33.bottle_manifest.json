@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:eccc2d06635f83c56b6c96e79f9877b5759fa0277e9268b69740af597f47bb5b",
+      "size": 1663,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.33.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "0a2e30ca1379034e45954d63729f03aa55ad265f602d7f3e86d31aa78b81b292",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"2.2.10-86-gcc05c3d\",\"changed_files\":[\"INSTALL_RECEIPT.json\"],\"source_modified_time\":1584534452,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[],\"arch\":null,\"built_on\":null}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-04-08",
+    "org.opencontainers.image.description": "Asynchronous event library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libev",
+    "org.opencontainers.image.ref.name": "4.33",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/linuxbrew-core/blob/HEAD/Formula/libev.rb",
+    "org.opencontainers.image.title": "libev",
+    "org.opencontainers.image.url": "http://software.schmorp.de/pkg/libev.html",
+    "org.opencontainers.image.vendor": "linuxbrew",
+    "org.opencontainers.image.version": "4.33"
+  }
+}

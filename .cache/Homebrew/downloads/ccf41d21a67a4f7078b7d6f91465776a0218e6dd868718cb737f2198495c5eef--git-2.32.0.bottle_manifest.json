@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0877d030bb754f39bd9e66165645d50485a31efcbcfd809cd5df343486855a86",
+      "size": 4414,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.32.0.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "c1a319a3a95e784a0be19432dc6ffe2a4dd02ab60c9d3d1c44b03f7f958f76d4",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.1.9-121-g654c78c\",\"changed_files\":[\"bin/git-cvsserver\",\"libexec/git-core/git-add--interactive\",\"libexec/git-core/git-archimport\",\"libexec/git-core/git-cvsexportcommit\",\"libexec/git-core/git-cvsimport\",\"libexec/git-core/git-instaweb\",\"libexec/git-core/git-send-email\",\"libexec/git-core/git-svn\",\"share/gitweb/gitweb.cgi\",\"libexec/git-core/git-sh-i18n\",\"share/perl5/Git/I18N.pm\"],\"source_modified_time\":1622981625,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[{\"full_name\":\"ncurses\",\"version\":\"6.2\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.1\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.2.11\",\"declared_directly\":true},{\"full_name\":\"libxml2\",\"version\":\"2.9.12\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.21\",\"declared_directly\":true},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"pcre2\",\"version\":\"10.37\",\"declared_directly\":true},{\"full_name\":\"brotli\",\"version\":\"1.0.9\",\"declared_directly\":false},{\"full_name\":\"libunistring\",\"version\":\"0.9.10\",\"declared_directly\":false},{\"full_name\":\"libidn2\",\"version\":\"2.3.1\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.4.1\",\"declared_directly\":true},{\"full_name\":\"libmetalink\",\"version\":\"0.1.3\",\"declared_directly\":false},{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1k\",\"declared_directly\":true},{\"full_name\":\"libssh2\",\"version\":\"1.9.0\",\"declared_directly\":false},{\"full_name\":\"c-ares\",\"version\":\"1.17.1\",\"declared_directly\":false},{\"full_name\":\"jemalloc\",\"version\":\"5.2.1\",\"declared_directly\":false},{\"full_name\":\"libev\",\"version\":\"4.33\",\"declared_directly\":false},{\"full_name\":\"nghttp2\",\"version\":\"1.43.0\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.37\",\"declared_directly\":false},{\"full_name\":\"openldap\",\"version\":\"2.5.5\",\"declared_directly\":false},{\"full_name\":\"rtmpdump\",\"version\":\"2.4+20151223\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.0\",\"declared_directly\":false},{\"full_name\":\"m4\",\"version\":\"1.4.18\",\"declared_directly\":false},{\"full_name\":\"bison\",\"version\":\"3.7.6\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.19.1\",\"declared_directly\":false},{\"full_name\":\"curl\",\"version\":\"7.77.0\",\"declared_directly\":true},{\"full_name\":\"linux-headers\",\"version\":\"4.4.80\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 16.04.7\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.23\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-06-07",
+    "org.opencontainers.image.description": "Distributed revision control system",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/git",
+    "org.opencontainers.image.license": "GPL-2.0-only",
+    "org.opencontainers.image.ref.name": "2.32.0",
+    "org.opencontainers.image.revision": "652e714fad715e71d621de2a0dabd539e50a9d1c",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/linuxbrew-core/blob/652e714fad715e71d621de2a0dabd539e50a9d1c/Formula/git.rb",
+    "org.opencontainers.image.title": "git",
+    "org.opencontainers.image.url": "https://git-scm.com",
+    "org.opencontainers.image.vendor": "linuxbrew",
+    "org.opencontainers.image.version": "2.32.0"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:464a0c411e6bfbbca321874b546440b4974439416aa86f2ddf85b788423bbcae",
+      "size": 2070,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.5.0.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "35f3d0c3e35229b4b9d32a2315f061651ee1cf88e2d5216ec259f2aece4dafb3",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.1.7-78-g1810ff9\",\"changed_files\":[\"lib/pkgconfig/libzstd.pc\"],\"source_modified_time\":1621004374,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[{\"full_name\":\"zlib\",\"version\":\"1.2.11\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 16.04.7\",\"cpu_family\":\"haswell\",\"glibc_version\":\"2.23\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-05-17",
+    "org.opencontainers.image.description": "Zstandard is a real-time compression algorithm",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/zstd",
+    "org.opencontainers.image.license": "BSD-3-Clause",
+    "org.opencontainers.image.ref.name": "1.5.0",
+    "org.opencontainers.image.revision": "2a7d5123f8dd4ab68a9993c360f0d0758e7dc9c4",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/linuxbrew-core/blob/2a7d5123f8dd4ab68a9993c360f0d0758e7dc9c4/Formula/zstd.rb",
+    "org.opencontainers.image.title": "zstd",
+    "org.opencontainers.image.url": "https://facebook.github.io/zstd/",
+    "org.opencontainers.image.vendor": "linuxbrew",
+    "org.opencontainers.image.version": "1.5.0"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:21fe5cefb4cb5dc156bc8dc16ffa5e0efab67fdd86646e2830ac15a8389fabe5",
+      "size": 2534,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.1.x86_64_linux.1",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "a907fb49867f904848a3df8ea38dc57f7196c43914de74c46a2de69ba65607a1",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.2.0-126-g83aa3ff\",\"changed_files\":[\"lib/pkgconfig/libidn2.pc\"],\"source_modified_time\":1620841680,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[{\"full_name\":\"ncurses\",\"version\":\"6.2\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.1\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.2.11\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.9.12\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.21\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"0.9.10\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 16.04.7\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.23\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-07-03",
+    "org.opencontainers.image.description": "International domain name library (IDNA2008, Punycode and TR46)",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libidn2",
+    "org.opencontainers.image.license": "GPL-2.0-or-later or LGPL-3.0-or-later",
+    "org.opencontainers.image.ref.name": "2.3.1-1",
+    "org.opencontainers.image.revision": "ad8c179e983df98b56aa06931755eeab7afb7f81",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/linuxbrew-core/blob/ad8c179e983df98b56aa06931755eeab7afb7f81/Formula/libidn2.rb",
+    "org.opencontainers.image.title": "libidn2",
+    "org.opencontainers.image.url": "https://www.gnu.org/software/libidn/#libidn2",
+    "org.opencontainers.image.vendor": "linuxbrew",
+    "org.opencontainers.image.version": "2.3.1"
+  }
+}

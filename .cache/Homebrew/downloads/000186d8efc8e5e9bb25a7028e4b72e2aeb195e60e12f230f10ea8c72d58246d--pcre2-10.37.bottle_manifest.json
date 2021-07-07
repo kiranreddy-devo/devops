@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6be18266c51abc549677796fd88368d0a858eeebdc8ca583dd12f6f2e3aed9a8",
+      "size": 2276,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "10.37.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "86281e59dc950af9e0421744376587ee045f58a3a71ec63b57ede4de5cd222fd",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.1.9-56-gae8a936\",\"changed_files\":[\"bin/pcre2-config\",\"lib/pkgconfig/libpcre2-16.pc\",\"lib/pkgconfig/libpcre2-32.pc\",\"lib/pkgconfig/libpcre2-8.pc\",\"lib/pkgconfig/libpcre2-posix.pc\"],\"source_modified_time\":1622039393,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"declared_directly\":true},{\"full_name\":\"zlib\",\"version\":\"1.2.11\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 16.04.7\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.23\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-05-27",
+    "org.opencontainers.image.description": "Perl compatible regular expressions library with a new API",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/pcre2",
+    "org.opencontainers.image.license": "BSD-3-Clause",
+    "org.opencontainers.image.ref.name": "10.37",
+    "org.opencontainers.image.revision": "2d207dbbff14e071405fb08d7da339c2e9b11bc4",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/linuxbrew-core/blob/2d207dbbff14e071405fb08d7da339c2e9b11bc4/Formula/pcre2.rb",
+    "org.opencontainers.image.title": "pcre2",
+    "org.opencontainers.image.url": "https://www.pcre.org/",
+    "org.opencontainers.image.vendor": "linuxbrew",
+    "org.opencontainers.image.version": "10.37"
+  }
+}

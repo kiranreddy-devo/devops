@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8e4755ee8deb85268ba9def5e5d8f35ed2dd6eb7789b09791310c8efa155050f",
+      "size": 2733,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.5.5.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "a1507a170d8679783d3a47790bcd63a113916db1299cf63c522a9f62a103b833",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.1.9-121-g654c78c\",\"changed_files\":[\".bottle/etc/openldap/slapd.conf\",\".bottle/etc/openldap/slapd.conf.default\",\".bottle/etc/openldap/slapd.ldif\",\".bottle/etc/openldap/slapd.ldif.default\",\"lib/pkgconfig/lber.pc\",\"lib/pkgconfig/ldap.pc\"],\"source_modified_time\":1622757570,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1k\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.2\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.1\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.2.11\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.9.12\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.21\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.37\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 16.04.7\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.23\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-06-04",
+    "org.opencontainers.image.description": "Open source suite of directory software",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/openldap",
+    "org.opencontainers.image.license": "OLDAP-2.8",
+    "org.opencontainers.image.ref.name": "2.5.5",
+    "org.opencontainers.image.revision": "ae1f68e9a20ca58c19a06b53eeec5e900e9c4ca6",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/linuxbrew-core/blob/ae1f68e9a20ca58c19a06b53eeec5e900e9c4ca6/Formula/openldap.rb",
+    "org.opencontainers.image.title": "openldap",
+    "org.opencontainers.image.url": "https://www.openldap.org/software/",
+    "org.opencontainers.image.vendor": "linuxbrew",
+    "org.opencontainers.image.version": "2.5.5"
+  }
+}

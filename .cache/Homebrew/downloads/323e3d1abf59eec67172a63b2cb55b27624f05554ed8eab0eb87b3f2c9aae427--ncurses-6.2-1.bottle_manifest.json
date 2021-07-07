@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f2999b217bed4ec7bf9f46abb6c015515ad720cda6a69e647f596354933de06b",
+      "size": 2136,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.2.x86_64_linux.1",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "7bbb5beecaf8a534c2b6e31c0327908dc17862bb78cb97f269701c8384e4c0e2",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.2.0-124-ge20ec39\",\"changed_files\":[\"bin/ncursesw6-config\",\"lib/pkgconfig/formw.pc\",\"lib/pkgconfig/menuw.pc\",\"lib/pkgconfig/ncurses++w.pc\",\"lib/pkgconfig/ncursesw.pc\",\"lib/pkgconfig/panelw.pc\",\"test/Makefile\"],\"source_modified_time\":1581474081,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 16.04.7\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.23\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-07-02",
+    "org.opencontainers.image.description": "Text-based UI library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/ncurses",
+    "org.opencontainers.image.license": "MIT",
+    "org.opencontainers.image.ref.name": "6.2-1",
+    "org.opencontainers.image.revision": "e60793db38651fef7b2162846d467fc5dbbf204b",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/linuxbrew-core/blob/e60793db38651fef7b2162846d467fc5dbbf204b/Formula/ncurses.rb",
+    "org.opencontainers.image.title": "ncurses",
+    "org.opencontainers.image.url": "https://www.gnu.org/software/ncurses/",
+    "org.opencontainers.image.vendor": "linuxbrew",
+    "org.opencontainers.image.version": "6.2"
+  }
+}

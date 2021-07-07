@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f90a2e8d55168ee48d22b7dff2ac1043557372bdaed25271c9d9063b3477d003",
+      "size": 2631,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.21_2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "92b2afc5a81a3e51d8da1bdd528af989b60d05a7cf0944479199db89d37adfd7",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"2.6.2-2-g7331a9b\",\"changed_files\":[\"bin/autopoint\",\"bin/gettextize\",\"lib/gettext/user-email\",\"INSTALL_RECEIPT.json\",\"share/doc/gettext/examples/installpaths\",\"share/man/man1/gettext.1\",\"share/man/man1/ngettext.1\"],\"source_modified_time\":1595806374,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-5\",\"runtime_dependencies\":[{\"full_name\":\"gdbm\",\"version\":\"1.18.1\"},{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1i\"},{\"full_name\":\"ncurses\",\"version\":\"6.2\"},{\"full_name\":\"readline\",\"version\":\"8.1\"},{\"full_name\":\"zlib\",\"version\":\"1.2.11\"},{\"full_name\":\"sqlite\",\"version\":\"3.34.0\"},{\"full_name\":\"xz\",\"version\":\"5.2.5\"},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\"},{\"full_name\":\"libffi\",\"version\":\"3.3\"},{\"full_name\":\"unzip\",\"version\":\"6.0\"},{\"full_name\":\"python@3.9\",\"version\":\"3.9.1\"},{\"full_name\":\"libxml2\",\"version\":\"2.9.10\"}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 16.04.7\",\"cpu_family\":\"skylake\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-04-08",
+    "org.opencontainers.image.description": "GNU internationalization (i18n) and localization (l10n) library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/gettext",
+    "org.opencontainers.image.license": "GPL-3.0-or-later",
+    "org.opencontainers.image.ref.name": "0.21_2",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/linuxbrew-core/blob/HEAD/Formula/gettext.rb",
+    "org.opencontainers.image.title": "gettext",
+    "org.opencontainers.image.url": "https://www.gnu.org/software/gettext/",
+    "org.opencontainers.image.vendor": "linuxbrew",
+    "org.opencontainers.image.version": "0.21_2"
+  }
+}

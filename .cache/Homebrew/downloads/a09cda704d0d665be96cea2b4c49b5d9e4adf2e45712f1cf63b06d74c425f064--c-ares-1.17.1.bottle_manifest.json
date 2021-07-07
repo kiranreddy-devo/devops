@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d5c3e1fb8ee84b07b8568dfc6a3659cbe3b38f8d906607f9e59e99d982a3989e",
+      "size": 1814,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.17.1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "4a8bd4ff5f8e8f06e623405b9d01344537ed93496e8713c2ac11cfbc5b26365c",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"2.5.11-117-gc376837\",\"changed_files\":[\"INSTALL_RECEIPT.json\",\"lib/pkgconfig/libcares.pc\"],\"source_modified_time\":1605803977,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 16.04.7\",\"cpu_family\":\"skylake\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-04-08",
+    "org.opencontainers.image.description": "Asynchronous DNS library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/c-ares",
+    "org.opencontainers.image.license": "MIT",
+    "org.opencontainers.image.ref.name": "1.17.1",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/linuxbrew-core/blob/HEAD/Formula/c-ares.rb",
+    "org.opencontainers.image.title": "c-ares",
+    "org.opencontainers.image.url": "https://c-ares.haxx.se/",
+    "org.opencontainers.image.vendor": "linuxbrew",
+    "org.opencontainers.image.version": "1.17.1"
+  }
+}
