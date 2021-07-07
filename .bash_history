@@ -289,3 +289,14 @@ ls
 git log
 sudo su -
 exit
+sudo su -
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew -v
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/ec2-user/.bash_profile
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+brew -v
+$ brew install git
+brew install git
+git -version
+git -v
+git --version
